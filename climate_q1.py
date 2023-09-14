@@ -18,3 +18,17 @@ print("--------------------")
 
 for y, c, t in zip(years, co2, temp):
     print(f"{y:<5} {c:<5} {t:<5}")
+
+#plt.subplot(2, 1, 1)
+#plt.plot(years, co2, 'b--')
+#plt.title("Climate Data")
+#plt.ylabel("[CO2]")
+#plt.xlabel("Year (decade)")
+
+#plt.subplot(2, 1, 2)
+#plt.plot(years, temp, 'r*-')
+#plt.ylabel("Temp (C)")
+#plt.xlabel("Year (decade)")
+#plt.tight_layout()
+#plt.show()
+#plt.savefig("co2_temp_1.png")
