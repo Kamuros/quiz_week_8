@@ -1,3 +1,4 @@
+#import matplotlib.pyplot as plt
 import sqlite3
 
 connection = sqlite3.connect('climate.db')
@@ -12,7 +13,7 @@ years = [row[0] for row in data]
 co2 = [row[1] for row in data]
 temp = [row[2] for row in data]
 
-# Display the data in a simple table format
+#Display the data in a simple table format.
 print(f"{'Year':<6}{'CO2':<6}{'Temperature':<6}")
 print("--------------------")
 
